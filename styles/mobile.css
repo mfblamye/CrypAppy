@@ -1,0 +1,160 @@
+.main__mobile__banner {
+    position: relative;
+    height: 842px;
+}
+
+.main__mobile__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main__mobile__desc-text-mini {
+    text-transform: uppercase;
+    color: #159be8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 28px;
+}
+
+.main__mobile__desc-title {
+    max-width: 456px;
+    width: 100%;
+    color: #fff;
+    font-size: clamp(1.5rem, 1.162rem + 1.688vw, 2.5rem);
+    font-weight: 400;
+    line-height: 54px;
+    margin-bottom: 8px;
+}
+
+.main__mobile__desc-text {
+    max-width: 580px;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.main__mobile__desc-benefits {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 56px;
+}
+
+.main__mobile__desc-benefits-card {
+    max-width: 308px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.main__mobile__desc-benefits-card-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main__mobile__desc-benefits-card-desc-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main__mobile__desc-benefits-card-desc-text {
+    max-width: 270px;
+    width: 100%;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__mobile__desc-link {
+    position: relative;
+    width: 164px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    align-items: center;
+    background: #159BE8;
+    color: #fff;
+    transition: .3s;
+}
+
+.main__mobile__desc-link::after {
+    content: "";
+    background: url("../imgs/doted-block.png") no-repeat center/cover;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -4px;
+    z-index: -1;
+    right: -48px;
+    animation: x-move 4s ease infinite;
+}
+
+.main__mobile__desc-link:hover {
+    background: #F95B74;
+}
+
+.main__mobile__phone {
+    position: absolute;
+    max-width: 360px;
+    width: 100%;
+}
+
+.main__mobile__phone-one {
+    top: 108px;
+    right: 360px;
+    animation: wave 4s ease infinite;
+}
+
+.main__mobile__phone-two {
+    top: 108px;
+    right: 0;
+    animation: wave 3s ease infinite 1s;
+}
+
+@media screen and (max-width: 1390px) {
+    .main__mobile__desc {
+        position: relative;
+        z-index: 10;
+    }
+
+    .main__mobile__phone {
+        animation: none;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .main__mobile__phone-one {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .main__mobile__desc {
+        text-align: center;
+        align-items: center;
+    }
+
+    .main__mobile__desc-benefits {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main__mobile__desc-benefits-card {
+        align-items: center;
+    }
+}

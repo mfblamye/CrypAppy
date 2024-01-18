@@ -1,0 +1,223 @@
+.main__new-app {
+    background: #0C0D2E;
+}
+
+.main__new-app-heading {
+    padding: 160px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main__new-app-heading-desc {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main__new-app-heading-desc-title {
+    color: #fff;
+    font-size: clamp(1.5rem, 1.162rem + 1.688vw, 2.5rem);
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.main__new-app-heading-desc-text {
+    color: #fff;
+    font-size: clamp(1rem, 0.958rem + 0.211vw, 1.125rem);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main__new-app-heading-benefits-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+
+.main__new-app-heading-benefits-block_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.main__new-app-heading-benefits-block_card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__new-app-heading-benefits-block_card-desc-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main__new-app-heading-benefits-block_card-desc-text {
+    max-width: 270px;
+    width: 100%;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__new-app-heading-benefits-block_card-desc-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #159BE8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: .2s;
+}
+
+.main__new-app-heading-benefits-block_card-desc-link:hover {
+    color: #F95B74;
+}
+
+.main__new-app-page {
+    overflow: hidden;
+    padding: 190px 0 160px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__new-app-page-bg {
+    position: absolute;
+    top: -350px;
+    left: -35px;
+    animation: top-down 8s ease infinite;
+}
+
+.main__new-app-page-heading {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__new-app-page-heading-title {
+    color: #fff;
+    font-size: clamp(1.5rem, 1.162rem + 1.688vw, 2.5rem);
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.main__new-app-page-heading-text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main__new-app-page-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main__new-app-page-content-features {
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+}
+
+.main__new-app-page-content-features_feature {
+    max-width: 345px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main__new-app-page-content-features:first-child {
+    text-align: end;
+}
+
+.main__new-app-page-content-features:first-child .main__new-app-page-content-features_feature {
+    align-items: flex-end;
+}
+
+.main__new-app-page-content-features:last-child .main__new-app-page-content-features_feature {
+    align-items: flex-start;
+}
+
+.main__new-app-page-content-features_feature-desc {
+    max-width: 328px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main__new-app-page-content-features_feature-desc-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main__new-app-page-content-features_feature-desc-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__new-app-page-content-poster {
+    max-width: 345px;
+    width: 100%;
+}
+
+.main__new-app-page-bg {
+    max-width: 800px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__new-app-page-content {
+        flex-direction: column;
+    }
+
+    .main__new-app-page-content-features {
+        gap: 20px;
+    }
+
+    .main__new-app-page-content-features:first-child,
+    .main__new-app-page-content-features {
+        text-align: center;
+    }
+
+    .main__new-app-page-content-features:first-child .main__new-app-page-content-features_feature,
+    .main__new-app-page-content-features:last-child .main__new-app-page-content-features_feature {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .main__new-app-page-bg {
+        animation: none;
+    }
+}

@@ -1,0 +1,115 @@
+.footer {
+    padding: 60px 0 45px;
+    background: #0C0D2E;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__nav-logo {
+    margin-bottom: 20px;
+}
+
+.footer__nav-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.footer__nav-newsletter-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.footer__nav-newsletter-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footer__nav-newsletter-list-item-link img {
+    opacity: 0.8;
+    transition: .3s;
+}
+.footer__nav-newsletter-list-item-link:hover img {
+    opacity: 1;
+}
+
+.footer__nav-form {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.footer__nav-form-email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 52px;
+}
+
+.footer__nav-form-email-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.footer__nav-form-email-input {
+    background: #010225;
+    outline: none;
+    border: 2px solid #282B53;
+    width: 100%;
+    height: 48px;
+    border-radius: 1px;
+    padding: 12px;
+    font-family: "LeagueSpartan-Regular";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer__nav-form-btn {
+    cursor: pointer;
+    background: #159BE8;
+    border: none;
+    width: 132px;
+    height: 48px;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.footer__nav-form-btn:hover {
+    background: #F95B74;
+}
+
+.footer__nav-creators {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer__nav-creators a {
+    color: #fff;
+    transition: .3s;
+}
+.footer__nav-creators a:hover {
+    color: #159BE8;
+}
