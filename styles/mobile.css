@@ -103,7 +103,7 @@
 }
 
 .main__mobile__desc-link:hover {
-    background: #F95B74;
+    background: #cc001f;
 }
 
 .main__mobile__phone {
@@ -121,7 +121,6 @@
 .main__mobile__phone-two {
     top: 108px;
     right: 0;
-    animation: wave 3s ease infinite 1s;
 }
 
 @media screen and (max-width: 1390px) {

@@ -36,10 +36,12 @@
     justify-content: center;
     gap: 30px;
 }
+
 .footer__nav-newsletter-list-item-link img {
     opacity: 0.8;
     transition: .3s;
 }
+
 .footer__nav-newsletter-list-item-link:hover img {
     opacity: 1;
 }
@@ -97,7 +99,7 @@
 }
 
 .footer__nav-form-btn:hover {
-    background: #F95B74;
+    background: #836a6d;
 }
 
 .footer__nav-creators {
@@ -106,10 +108,20 @@
     font-weight: 400;
     line-height: 20px;
 }
+
 .footer__nav-creators a {
     color: #fff;
     transition: .3s;
 }
-.footer__nav-creators a:hover {
-    color: #159BE8;
+
+.footer__nav-form-btn {
+    font-family: "LeagueSpartan-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer__nav-form-btn:hover {
+    color: #fff;
+    scale: 1.05;
 }

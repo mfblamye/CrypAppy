@@ -155,15 +155,15 @@
 }
 
 .main__pricing__cards-card:first-child .main__pricing__cards-card-line {
-    background: #159BE8;
+    background: #003b5e;
 }
 
 .main__pricing__cards-card:nth-child(2) .main__pricing__cards-card-line {
-    background: #F95B74;
+    background: #f50025;
 }
 
 .main__pricing__cards-card:nth-child(3) .main__pricing__cards-card-line {
-    background: #7C44E2;
+    background: #5900ff;
 }
 
 .main__pricing__cards-card-level {
@@ -210,15 +210,15 @@
 }
 
 .main__pricing__cards-card:first-child .main__pricing__cards-card-btn:hover {
-    background: #159BE8;
+    background: #00503c;
 }
 
 .main__pricing__cards-card:nth-child(2) .main__pricing__cards-card-btn:hover {
-    background: #f95b74;
+    background: #f00000;
 }
 
 .main__pricing__cards-card:nth-child(3) .main__pricing__cards-card-btn:hover {
-    background: #7c44e2;
+    background: #8d8400;
 }
 
 .main__pricing__cards-card-big {
@@ -284,7 +284,7 @@
     border: none;
 }
 .main__pricing__cards-card-big-actions-btn:first-child:hover {
-    background: #F95B74;
+    background: #b62a00;
 }
 .main__pricing__cards-card-big-actions-btn:last-child {
     border: 2px solid #fff;
@@ -292,7 +292,7 @@
 }
 .main__pricing__cards-card-big-actions-btn:last-child:hover {
     border: 2px solid transparent;
-    background: #F95B74;
+    background: #fd70be;
 }
 .main__pricing__cards-big-card-bg {
     position: absolute;
